@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+a{ text-decoration:none;}
+.clear {
+	clear: both;
+}
+.biao {
+	font-size: 12px;
+}
+.new_tab_ul {
+	background: #F5841C;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.new_tab_ul li {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 50%;
+	float: left;
+}
+.new_tab_ul li a {
+	text-align: center;
+	color: #fff;
+	display: block;
+	font-size: 16px;
+}
+textarea {
+	border: 1px solid #CCC;
+	padding: 5px;
+}
+.tab_div_ul label {
+	float: left;
+	width: 66px;
+	font-size: 12px;
+	text-align: left;
+	color: #3b3a3a;
+	line-height: 56px;
+}
+.tab_div_ul .list_div {
+	float: left;
+	padding-top: 10px;
+	margin-right: 20px;
+}
+.tab_div_ul input {
+	border: 1px solid #ccc;
+	height: 35px;
+	width: 100px;
+	padding: 0 9px;
+	color: #000000;
+	outline: none;
+}
+.tab_div_ul .list_div_last {
+	margin-right: 0px;
+}
+.tab_div_ul .list_select {
+	padding-right: 36px;
+	width: 250px;
+	background: url(../images/new07.png) 260px no-repeat;
+}
+.tab_div_ul .list_select1 {
+	padding-right: 15px;
+}
+.w144 {
+	width: 144px;
+}
+.tab_div_ul .list_time {
+	width: 233px;
+	padding-right: 36px;
+	background: url(../images/new07.png) 252px no-repeat;
+}
+.tab_div_ul select {
+	padding-left: 10px;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	border: 1px solid #cccccc;
+	height: 35px;
+	border-radius: 0;
+}
+.tab_div_ul select option {
+	margin-left: 10px;
+}
+.tab_div_ul .list_weight {
+	width: 86px;
+	padding-right: 25px;
+	background: url(../images/new07.png) 62px no-repeat;
+}
+.tab_div_ul .list_type {
+	width: 120px;
+	padding-right: 25px;
+	background: url(../images/new07.png) 151px no-repeat;
+}
+.tab_div_ul .list_volume {
+	width: 91px;
+	padding-right: 32px;
+	background: url(../images/new07.png) 63px no-repeat;
+}
+.new_tab_bottom a {
+	float: left;
+	width: 100px;
+	height: 32px;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	line-height: 32px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	background: url(../images/new08.jpg) left repeat-x;
+	border-radius: 5px;
+}
+.new_up {
+	width: 400px;
+	display: none;
+	position: absolute;
+	padding: 18px 0;
+	left: -40px;
+	z-index: 10;
+}
+.arrow_in {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-width: 12px;
+	border-style: dashed;
+	border-color: transparent;
+	border-top-width: 0;
+	border-bottom-color: #fff;
+	border-bottom-style: solid;
+	top: 6px;
+	left: 55px;
+	position: absolute;
+}
+.up_div {
+	width: 358px;
+	margin: 0 auto;
+	padding: 14px 12px;
+	background: #fff;
+	box-shadow: 0 0 24px #4e4e4e;
+	-moz-box-shadow: 0 0 24px #4e4e4e;
+	-webkit-box-shadow: 0 0 24px #4e4e4e;
+}
+.new_up_tab {
+	line-height: 20px;
+	color: #2e2d2d;
+	font-size: 12px;
+	border-bottom: 1px solid #efefef;
+}
+.new_up_cur {
+	color: #34a831;
+	border-bottom: 1px solid #40ad3e;
+}
+.new_up_list {
+	padding: 6px 0;
+	font-size: 12px;
+}
+/*************************************************************/
+.row {
+	margin-left: 0;
+}
+label{ text-align:right;}
+.form-horizontal .form-group{ margin-right:0;}
+.bd .row{ margin-right:30px;}
+
+
+
+
+
+
+
+
+

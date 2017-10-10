@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="images/logo.ico">
+<title>新广货运联盟-会员资料及修改</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="container">
+<h2 class="text-center">会员资料及修改</h2>
+<form method="post" action="">
+    <div class="form-group">
+    	<label for="cellphone" style="float:left;">修改手机号码</label>
+    	<input type="number" class="form-control" id="cellphone" placeholder="请输入新的手机号码">
+    </div>
+    <div class="form-group">
+    	<label for="name">姓名</label>
+    	<input type="text" class="form-control" id="name" value="马晓腾" disabled>
+    </div>
+    <div class="form-group">
+    	<label for="ID">身份证号码</label>
+    	<input type="text" class="form-control" id="ID" value="412326198907154562" disabled>
+    </div>
+    <div class="form-group">
+    	<label for="company">修改公司名称</label>
+    	<input type="text" class="form-control" id="company" placeholder="请输入新的公司名称">
+    </div>
+    <div class="form-group">
+    	<label for="E-mail">修改邮箱</label>
+    	<input type="email" class="form-control" id="E-mail" placeholder="请输入新的邮箱">
+    </div>
+    <div class="form-group">
+    	<label for="city">修改所在城市</label>
+    	<input type="text" class="form-control" id="city" placeholder="请输入新的城市">
+    </div>
+    <div class="form-group">
+    	<label for="call">修改座机号码</label>
+    	<input type="number" class="form-control" id="call" placeholder="请输入新的座机号码">
+    </div>
+    <button type="submit" class="btn btn-default">保存</button>
+    <button type="reset" class="btn btn-default">重置</button>
+</form>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style=" float:right;">
+    修改密码&raquo;
+</button>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+               <h4 class="modal-title" id="myModalLabel">修改密码</h4>
+            </div>
+            <div class="modal-body">
+                <form method="post" action="" class="form-horizontal">
+                	<div class="form-group">
+                        <label for="password" class="col-sm-3 control-label">旧密码</label>
+                        <div class="col-sm-9">
+                        	<input type="password" class="form-control" name="password" id="password" placeholder="输入密码"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="new-password" class="col-sm-3 control-label">新密码</label>
+                        <div class="col-sm-9">
+                        	<input type="password" class="form-control" name="password" id="new-password" placeholder="输入密码"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm_password" class="col-sm-3 control-label">确认新密码</label>
+                        <div class="col-sm-9">
+                        	<input type="password" class="form-control" name="confirm_password" id="confirm_password" placeholder="再次输入密码"/>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                    	<button type="button" class="btn btn-primary col-sm-2 col-sm-offset-9">保存</button>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
